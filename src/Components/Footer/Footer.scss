@@ -1,0 +1,55 @@
+$green: #0DC884;
+
+.footer {
+    padding: 25px 0;
+    background-color: $green;
+    & * {
+        color: #fff;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+        justify-content: center;
+    }
+    &__social {
+        display: flex;
+        gap: 10px;
+    }
+    &__button {
+        background-color: #fff;
+        color: #161616;
+        padding: 18px 23px;
+        transition: all 0.3s ease-in-out;
+            &:hover {
+                background-color: #e9e8e8;
+                box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.15);
+              }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .footer {
+        &__logo {
+            width: 182px;
+        }
+        &__button {
+            padding: 15px 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        &__wrapper {
+            flex-direction: column;
+            gap: 30px;
+        } 
+    }
+}

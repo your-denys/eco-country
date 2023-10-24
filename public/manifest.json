@@ -1,0 +1,15 @@
+{
+  "short_name": "Eco Country",
+  "name": "Eco Country",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "https://korax.ai/",
+  "display": "standalone",
+  "theme_color": "#fff",
+  "background_color": "#fff"
+}

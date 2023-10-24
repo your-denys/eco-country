@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Roboto ';
+    src: url('../public/roboto-regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: url('../public/roboto-medium.ttf');
+    font-weight: 500;
+    font-style: bold;
+  }
+  @font-face {
+    font-family: 'Benzin';
+    src: url('../public/benzin-bold.ttf');
+    font-weight: 700;
+  }

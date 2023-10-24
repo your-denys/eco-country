@@ -1,0 +1,121 @@
+$green: #0dc884;
+
+.contact {
+  padding: 50px 0;
+
+  &__title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    align-items: center;
+  }
+  &__title {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 51.5px; /* 128.75% */
+    letter-spacing: 1.8px;
+    color: #161616;
+    text-wrap: balance;
+  }
+  &__text {
+    text-align: right;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    text-wrap: balance;
+  }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  &__button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__button {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 18px 23px;
+    background-color: $green;
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      background-color: #0d9f6a;
+      box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.15);
+    }
+  }
+  &__text {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 400;
+    text-wrap: balance;
+  }
+}
+.css-3su884-MuiPaper-root {
+  padding: 60px  ;
+}
+.css-1x51dt5-MuiInputBase-input-MuiInput-input {
+    font-size: 20px !important;
+    height: 2rem !important;
+}
+
+@media screen and (max-width: 992px) {
+  .contact {
+    padding: 30px 0;
+    &__title-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 25px;
+    }
+    &__title {
+      font-size: 24px;
+      letter-spacing: 0.99px;
+      margin-bottom: 20px;
+      line-height: normal;
+    }
+    &__text {
+      text-align: left;
+      font-size: 18px;
+      line-height: 126%;
+      text-wrap: pretty;
+    }
+    .form {
+        &__button-wrapper {
+            gap: 20px;
+            flex-direction: column;
+            align-items: center; 
+        }
+        &__button {
+            padding: 10px 0;
+            width: 100%;
+        }
+        &__text {
+            font-size: 16px;
+            text-align: left;
+            text-wrap: pretty;
+        }
+    }
+}
+.css-1x51dt5-MuiInputBase-input-MuiInput-input {
+    font-size: 18px !important;
+    height: 1.8rem !important;
+}
+.css-3su884-MuiPaper-root {
+  padding: 30px 15px  ;
+}
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}

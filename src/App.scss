@@ -1,0 +1,56 @@
+// variables
+$green: #0DC884;
+$maintextcolor: #767474;
+$whitecolor: #fff;
+
+// main styles
+ .container-fluid {
+  --bs-gutter-x: 0 !important;
+}
+body * {
+        font-weight: 400;
+        font-family: 'Roboto';
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #161616;
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  font-family: 'Roboto';
+  font-weight: 400;
+
+
+}
+
+p,
+a,
+li,
+button,
+ul {
+  color: $maintextcolor;
+  line-height: normal;
+  text-decoration: none !important;
+  font-family: 'Roboto';
+  font-weight: 400;
+  list-style: none !important;
+
+}
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+// my styles
+
+.border-dashed {
+border-bottom: 2px solid #eae8e8;
+}

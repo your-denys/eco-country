@@ -1,0 +1,42 @@
+.faq {
+  padding: 80px 0;
+}
+.accordion {
+  margin-top: 60px;
+  --bs-accordion-border-color: none;
+  width: 100%;
+  display: block;
+  margin: 60px auto 0;
+}
+.accordion-item,
+.accordion-header,
+.accordion-button {
+  background-color: #0dc884 !important;
+  color: #fff !important;
+  border-radius: 14px !important;
+}
+.accordion-button {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Roboto";
+}
+.accordion-button::after {
+    background-image: url('../../assets/arrow-down.svg') !important;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-item {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+@media screen and (max-width: 992px) {
+  .accordion-item {
+    margin-bottom: 15px;
+    padding: 0px 0;
+  }
+  .accordion-button {
+    font-size: 20px;
+    font-family: "Roboto";
+  }
+}

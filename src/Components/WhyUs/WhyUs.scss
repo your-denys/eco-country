@@ -1,0 +1,102 @@
+.why-us {
+  padding: 50px 0;
+  &__title {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 51.5px;
+    letter-spacing: 2.8px;
+    margin-bottom: 65px;
+  }
+  &__wrapper {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  &__card {
+    width: 20%;
+    padding: 30px 20px;
+    border: 1px solid #aaa;
+    transition: all 0.3s ease-in-out !important; 
+    &:hover {
+        background-color: #0dc884;
+        border: 1px solid #0dc884;
+        transform: scale(1.04);
+    }
+    &:hover &-title, &:hover &-text  {
+        color: #fff;
+
+    }
+    &-title {
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: 1.2px;
+      margin-bottom: 30px;
+      transition: all 0.3s ease-in-out !important; 
+
+    }
+    &-text {
+      color: #767474;
+      font-size: 16px;
+      font-weight: 400;
+      text-wrap: balance;
+      transition: all 0.3s ease-in-out !important; 
+
+    }
+  }
+  &__button {
+    display: table;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 16.9px; /* 70.417% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 20px;
+    background-color: #0dc884;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      background-color: #0d9f6a;
+      box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.15);
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .why-us {
+    padding: 40px 0;
+    &__title {
+      font-size: 22px;
+      line-height: 51.5px; /* 234.091% */
+      letter-spacing: 1.54px;
+      margin-bottom: 30px;
+    }
+    &__wrapper {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+    &__card {
+      width: 100%;
+      padding: 20px 15px;
+      border: 1px solid #aaa;
+      &-title {
+        font-size: 20px;
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+      }
+      &-text {
+        color: #767474;
+        font-size: 16px;
+        text-wrap: pretty;
+      }
+    }
+    &__button {
+      padding: 15px 20px;
+    }
+  }
+}
