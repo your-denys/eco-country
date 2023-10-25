@@ -12,7 +12,7 @@ const Services = () => {
         <Container>
           <div id="services" className="services__title-block">
             <motion.h2
-              initial={{ opacity: 0, x: -100 }}
+              initial={{ opacity: 0, x: -50 }}
               viewport={{ once: true }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 1 }}
@@ -21,7 +21,7 @@ const Services = () => {
               Ми забезпечуємо весь спектр послуг:
             </motion.h2>
             <motion.p
-              initial={{ opacity: 0, x: 100 }}
+              initial={{ opacity: 0, x: 50 }}
               viewport={{ once: true }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 1 }}
@@ -34,7 +34,7 @@ const Services = () => {
           </div>
           <div className="services__wrapper">
             <motion.div
-              initial={{ opacity: 0, y: 100 }}
+              initial={{ opacity: 0, y: 50 }}
               viewport={{ once: true }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
@@ -54,7 +54,7 @@ const Services = () => {
               </div>
             </motion.div>
             <motion.div
-              initial={{ opacity: 0, y: 100 }}
+              initial={{ opacity: 0, y: 50 }}
               viewport={{ once: true }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
@@ -73,7 +73,7 @@ const Services = () => {
               </div>
             </motion.div>
             <motion.div
-              initial={{ opacity: 0, y: 100 }}
+              initial={{ opacity: 0, y: 50 }}
               viewport={{ once: true }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}

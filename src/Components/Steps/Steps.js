@@ -18,7 +18,7 @@ const Steps = () => {
         </motion.h2>
         <div className="steps__wrapper">
           <motion.div
-            initial={{ opacity: 0, x: -100 }}
+            initial={{ opacity: 0, x: -50 }}
             viewport={{ once: true }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay:0.6 }}
@@ -30,7 +30,7 @@ const Steps = () => {
             </p>
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, x: 100 }}
+            initial={{ opacity: 0, x: 50 }}
             viewport={{ once: true }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay:0.9 }}
@@ -43,7 +43,7 @@ const Steps = () => {
             </p>
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, x: -100 }}
+            initial={{ opacity: 0, x: -50 }}
             viewport={{ once: true }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay:1.2 }}
@@ -53,7 +53,7 @@ const Steps = () => {
             <p className="steps__text">Підписання договору</p>
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, x: 100 }}
+            initial={{ opacity: 0, x: 50 }}
             viewport={{ once: true }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 1.5 }}
@@ -63,7 +63,7 @@ const Steps = () => {
             <p className="steps__text">Встановлення сонячної електростанції</p>
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, x: -100 }}
+            initial={{ opacity: 0, x: -50 }}
             viewport={{ once: true }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay:1.8 }}

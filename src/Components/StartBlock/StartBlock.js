@@ -8,10 +8,10 @@ const StartBlock = () => {
       <Container>
         <section className="start-block">
           <motion.h1
-            initial={{ opacity: 0, x: -100 }}
+            initial={{ opacity: 0, x: -50 }}
             viewport={{once: true}}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 2, delay: 0 }}
             className="start-block__text"
           >
             Встановлюємо сонячні електростанції під ключ з гарантією{" "}

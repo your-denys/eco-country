@@ -57,14 +57,14 @@ $green: #0dc884;
   }
 }
 .css-3su884-MuiPaper-root {
-  padding: 60px  ;
+  padding: 60px;
 }
 .css-1x51dt5-MuiInputBase-input-MuiInput-input {
-    font-size: 20px !important;
-    height: 2rem !important;
+  font-size: 20px !important;
+  height: 2rem !important;
 }
 .css-vuzb25 {
-  padding: 30px 15px;
+  padding: 60px;
 }
 @media screen and (max-width: 992px) {
   .contact {
@@ -88,29 +88,32 @@ $green: #0dc884;
       text-wrap: pretty;
     }
     .form {
-        &__button-wrapper {
-            gap: 20px;
-            flex-direction: column;
-            align-items: center; 
-        }
-        &__button {
-            padding: 10px 0;
-            width: 100%;
-        }
-        &__text {
-            font-size: 16px;
-            text-align: left;
-            text-wrap: pretty;
-        }
+      &__button-wrapper {
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+      }
+      &__button {
+        padding: 10px 0;
+        width: 100%;
+      }
+      &__text {
+        font-size: 16px;
+        text-align: left;
+        text-wrap: pretty;
+      }
     }
-}
-.css-1x51dt5-MuiInputBase-input-MuiInput-input {
+    .css-vuzb25 {
+      padding: 30px 15px;
+    }
+  }
+  .css-1x51dt5-MuiInputBase-input-MuiInput-input {
     font-size: 18px !important;
     height: 1.8rem !important;
-}
-.css-3su884-MuiPaper-root {
-  padding: 30px 15px  ;
-}
+  }
+  .css-3su884-MuiPaper-root {
+    padding: 30px 15px;
+  }
 }
 
 input::-webkit-outer-spin-button,

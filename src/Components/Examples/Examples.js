@@ -41,7 +41,7 @@ const Examples = () => {
               </ul>
               <div className="examples__content-wrapper">
                 <a href="#form" className="examples__content-price">
-                  Від <span style={{ color: "#0DC884" }}>$10000</span>{" "}
+                  Від <span style={{ color: "#0DC884" }}>$10000</span>
                 </a>
               </div>
             </div>
@@ -65,7 +65,7 @@ const Examples = () => {
               </ul>
               <div className="examples__content-wrapper">
                 <a href="#form" className="examples__content-price">
-                  Від <span style={{ color: "#0DC884" }}>$10000</span>{" "}
+                  Від <span style={{ color: "#0DC884" }}>$10000</span>
                 </a>
               </div>
             </div>
@@ -89,7 +89,7 @@ const Examples = () => {
               </ul>
               <div className="examples__content-wrapper">
                 <a href="#form" className="examples__content-price">
-                  Від <span style={{ color: "#0DC884" }}>$10000</span>{" "}
+                  Від <span style={{ color: "#0DC884" }}>$10000</span>
                 </a>
               </div>
             </div>
