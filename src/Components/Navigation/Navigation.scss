@@ -41,7 +41,11 @@ $green: #0dc884;
     }
   }
 }
-
+@media screen and (max-width: 1199px) and (min-width: 993px) {
+  .navigation__button {
+    padding: 14px 12px;
+  }
+}
 @media screen and (max-width: 992px) {
   .burger-menu {
     display: flex !important;

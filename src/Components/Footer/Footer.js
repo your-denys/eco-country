@@ -7,7 +7,7 @@ import tg from "../../assets/tg-logo.svg";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer id="#footer" className="footer">
       <Container>
         <section className="footer__wrapper">
           <img className="footer__logo" src={logo} alt="logo" />

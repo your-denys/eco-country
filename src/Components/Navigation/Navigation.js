@@ -19,6 +19,8 @@ const Navigation = () => {
     setShowOffcanvas(false);
   };
 
+  // const isMobile = window.innerWidth <= 992;
+
   return (
     <motion.div
     initial={{ opacity: 0 }}
@@ -76,6 +78,15 @@ const Navigation = () => {
                     onClick={handleOffcanvasClose}
                   >
                     Приклади
+                  </ScrollLink>
+                  <ScrollLink
+                  className="nav-link"
+                    to="footer"
+                    smooth={true}
+                    duration={300}
+                    onClick={handleOffcanvasClose}
+                  >
+                    Контакти
                   </ScrollLink>
                 </Nav>
                 <ScrollLink
