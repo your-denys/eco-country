@@ -17,10 +17,12 @@ const Form = () => {
   const [error, setError] = useState('');
 
   const sendEmail = (e) => {
-    e.preventDefault();
 
+    e.preventDefault();
+    
     emailjs
-      .sendForm(
+    
+    .sendForm(
         "service_kkh37p7",
         "template_9qo6fgx",
         form.current,
@@ -69,7 +71,6 @@ const Form = () => {
         label="Ваш номер телефону"
         variant="standard"
         className="form__input"
-        type="number"
         autoComplete="false"
         required
         name="phone"
